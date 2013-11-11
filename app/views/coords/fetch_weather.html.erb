@@ -19,3 +19,15 @@
   <dt>Summary for the week:</dt>
   <dd><%= @daily_summary %></dd>
 </dl>
+
+
+<form action="http://localhost:3000/weather">
+  <div>
+    <label for="the_address">Address:</label>
+    <input id="the_address" type="text" name="the_address">
+  </div>
+  <div>
+    <input type="submit" value="Get Weather!">
+  </div>
+</form>
+
